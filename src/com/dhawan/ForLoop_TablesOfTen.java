@@ -9,5 +9,4 @@ public class ForLoop_TablesOfTen {
 			System.out.println("10 x " + i + " = " + 10 * i);
 		}
 	}
-
 } 

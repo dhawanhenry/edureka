@@ -1,4 +1,5 @@
 package com.dhawan;
+
 import java.util.Scanner;
 
 public class IfCondition_PositiveNegativeNo {
@@ -22,5 +23,3 @@ public class IfCondition_PositiveNegativeNo {
 		}
 	}
 }
-
-

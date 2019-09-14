@@ -1,4 +1,5 @@
 package com.dhawan;
+
 import java.util.Scanner;
 
 public class ForLoop_Factorial {
@@ -23,4 +24,6 @@ public class ForLoop_Factorial {
 		}
 		System.out.println("Factorial = " + factorial);
 	}
+
 }
+

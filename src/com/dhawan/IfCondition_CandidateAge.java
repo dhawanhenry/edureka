@@ -1,4 +1,5 @@
 package com.dhawan;
+
 import java.util.Scanner;
 
 public class IfCondition_CandidateAge {
@@ -18,4 +19,6 @@ public class IfCondition_CandidateAge {
 			System.out.println("Candidate with age " + candidateAge + " is not eligible for voting");
 		}
 	}
+
 }
+

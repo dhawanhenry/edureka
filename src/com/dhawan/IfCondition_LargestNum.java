@@ -1,4 +1,6 @@
 package com.dhawan;
+
+
 import java.util.Scanner;
 
 public class IfCondition_LargestNum {
@@ -25,7 +27,5 @@ public class IfCondition_LargestNum {
 		} else {
 			System.out.println("First number " + numberOne + " is equal to Second number " + numberTwo);
 		}
-
 	}
-
 }
