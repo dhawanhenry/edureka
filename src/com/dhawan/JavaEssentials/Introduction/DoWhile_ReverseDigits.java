@@ -1,8 +1,8 @@
-package com.dhawan.JavaEssentials;
+package com.dhawan.JavaEssentials.Introduction;
 
 import java.util.Scanner;
 
-public class ForLoop_ReverseDigits {
+public class DoWhile_ReverseDigits {
 
 	public static void main(String[] args) {
 		// Write a program to reverse the digits of a number.
@@ -12,16 +12,20 @@ public class ForLoop_ReverseDigits {
 		Scanner scanner = new Scanner(System.in);
 		int number = scanner.nextInt();
 		scanner.close();
+		
 		int revNumber = 0;
-
-
-		for(int i = number; ((i % 10 > 0) || (i / 10) > 0); i = i / 10) {
-
+		int i = 0;
+		
+		do {			
 			revNumber = (revNumber * 10) + (number % 10);
 			number = number / 10;
-		}
-		System.out.println(revNumber);
+			i = number;
+			
+		} while(((i % 10 > 0) || (i / 10) > 0));
 		
-	}
-}
+		System.out.println(revNumber);
 
+
+	}
+
+}

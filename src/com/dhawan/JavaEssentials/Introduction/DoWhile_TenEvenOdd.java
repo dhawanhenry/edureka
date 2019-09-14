@@ -1,4 +1,5 @@
-package com.dhawan.JavaEssentials;
+package com.dhawan.JavaEssentials.Introduction;
+
 public class DoWhile_TenEvenOdd {
 
 	public static void main(String[] args) {

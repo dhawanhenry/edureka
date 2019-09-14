@@ -1,4 +1,5 @@
-package com.dhawan.JavaEssentials;
+package com.dhawan.JavaEssentials.Introduction;
+
 public class While_TenFibonacciNos {
 	
 	public static void main(String[] args) {

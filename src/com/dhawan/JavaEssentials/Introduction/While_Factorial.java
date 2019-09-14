@@ -1,4 +1,5 @@
-package com.dhawan.JavaEssentials;
+package com.dhawan.JavaEssentials.Introduction;
+
 import java.util.Scanner;
 
 public class While_Factorial {

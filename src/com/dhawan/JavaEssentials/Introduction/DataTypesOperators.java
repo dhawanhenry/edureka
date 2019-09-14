@@ -1,4 +1,5 @@
-package com.dhawan.JavaEssentials;
+package com.dhawan.JavaEssentials.Introduction;
+
 public class DataTypesOperators {
 
 	public static void main(String[] args) {
