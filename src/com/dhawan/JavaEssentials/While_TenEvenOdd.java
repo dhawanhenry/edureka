@@ -1,5 +1,5 @@
-package com.dhawan;
-public class DoWhile_TenEvenOdd {
+package com.dhawan.JavaEssentials;
+public class While_TenEvenOdd {
 
 	public static void main(String[] args) {
 		// Write a program to print 10 even numbers and 10 odd numbers.
@@ -15,10 +15,10 @@ public class DoWhile_TenEvenOdd {
 		i = 0;
 		System.out.println("List of 10 Odd numbers");
 		
-		do {
+		while(i < 10) {
 			System.out.println((2 * i) + 1);
 			i = i + 1;
-		} while(i < 10);
+		}
 	}
 
 }

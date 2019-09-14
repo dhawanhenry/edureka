@@ -1,19 +1,24 @@
-package com.dhawan;
-
-public class ForLoop_TenEvenOdd {
+package com.dhawan.JavaEssentials;
+public class DoWhile_TenEvenOdd {
 
 	public static void main(String[] args) {
 		// Write a program to print 10 even numbers and 10 odd numbers.
-		
+
+		int i = 1;	
 		System.out.println("List of 10 Even numbers");
-		for(int i = 1; i < 11; i++) {
+
+		do {
 			System.out.println(i * 2);
-		}
+			i = i + 1;			
+		} while(i < 11);
 		
+		i = 0;
 		System.out.println("List of 10 Odd numbers");
-		for(int i = 0; i < 10; i++) {
+		
+		do {
 			System.out.println((2 * i) + 1);
-		}
+			i = i + 1;
+		} while(i < 10);
 	}
 
 }

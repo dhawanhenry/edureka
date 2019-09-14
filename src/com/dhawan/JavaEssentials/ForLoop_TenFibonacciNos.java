@@ -1,6 +1,7 @@
-package com.dhawan;
-public class While_TenFibonacciNos {
-	
+package com.dhawan.JavaEssentials;
+
+public class ForLoop_TenFibonacciNos {
+
 	public static void main(String[] args) {
 		// Write a program to generate 10 Fibonacci numbers.
 		
@@ -8,14 +9,12 @@ public class While_TenFibonacciNos {
 		int one = 0;
 		int two = 1;
 		int fibo = 1;
-		int i = 2;
-
-		while(i < 11) {
+		
+		for(int i = 2; i < 11; i++) {			
 			System.out.println("Fibonacci number " + i + " = " + fibo);
 			fibo = one + two;
 			one = two;
 			two = fibo;
-			i = i + 1;
 		}
 	}
 }

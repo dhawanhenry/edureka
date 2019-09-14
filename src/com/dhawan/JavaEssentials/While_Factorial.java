@@ -1,8 +1,7 @@
-package com.dhawan;
-
+package com.dhawan.JavaEssentials;
 import java.util.Scanner;
 
-public class ForLoop_Factorial {
+public class While_Factorial {
 
 	public static void main(String[] args) {
 		// Write a program to find factorial of a number.
@@ -14,16 +13,18 @@ public class ForLoop_Factorial {
 		scanner.close();
 		
 		int factorial = 0;
+		int i = number;
 		
-		for(int i = number; i > 0; i--) {
-			if((i - 1) > 0) {
-				number = number * (i - 1);
-				factorial = number;
-			}
+		while ((i - 1) > 0) {
+			number = number * (i - 1);
+			i = i - 1;
 			factorial = number;
 		}
+		
 		System.out.println("Factorial = " + factorial);
+
+
+
 	}
 
 }
-

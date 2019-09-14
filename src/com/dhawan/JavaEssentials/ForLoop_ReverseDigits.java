@@ -1,4 +1,4 @@
-package com.dhawan;
+package com.dhawan.JavaEssentials;
 
 import java.util.Scanner;
 
