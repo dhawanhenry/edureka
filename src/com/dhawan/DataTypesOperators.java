@@ -1,5 +1,4 @@
-package edureka_course;
-
+package com.dhawan;
 public class DataTypesOperators {
 
 	public static void main(String[] args) {

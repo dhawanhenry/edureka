@@ -1,5 +1,4 @@
-package edureka_course;
-
+package com.dhawan;
 import java.util.Scanner;
 
 public class ForLoop_ReverseDigits {
@@ -14,7 +13,7 @@ public class ForLoop_ReverseDigits {
 		scanner.close();
 		int revNumber = 0;
 
-		for(int i = number; i % 10 > 0; i = i / 10) {
+		for(int i = number; ((i % 10 > 0) || (i / 10) > 0); i = i / 10) {
 			revNumber = (revNumber * 10) + (number % 10);
 			number = number / 10;
 		}
